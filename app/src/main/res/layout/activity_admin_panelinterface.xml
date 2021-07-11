@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oggg"
+    tools:context=".AdminPanelinterface">
+
+    <Button
+        android:id="@+id/women_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/wonmbtn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/men_btn" />
+
+    <Button
+        android:id="@+id/men_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/menbtn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kids_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/kidsbtn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/women_btn" />
+
+    <Button
+        android:id="@+id/access_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/accesbtn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kids_btn" />
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/viewpbtn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/access_btn" />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/logoutbtn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_orders_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
